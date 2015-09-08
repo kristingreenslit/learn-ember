@@ -106,6 +106,7 @@ GEM
       mini_portile (~> 0.6.0)
     pg (0.18.3)
     populator (1.0.0)
+    puma (2.13.4)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -182,6 +183,7 @@ DEPENDENCIES
   jquery-rails
   pg
   populator
+  puma
   rails (= 4.2.4)
   responders
   sass-rails (~> 5.0)

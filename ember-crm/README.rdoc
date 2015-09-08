@@ -1,28 +1,53 @@
-== README
+Why did you choose this subject?
+- I'm always interested in learning something new, and Ember's been on on my to-do list for a while. It worked out well that others in the class were interested in it as well and we could learn together.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How were you first made aware of it?
+- It was mentioned in GA as part of the MEAN stack, and I also heard about it from a Sr. Developer at a meetup.
 
-Things you may want to cover:
+What problem does it solve?
+- Provides another tool for client-side js projects
 
-* Ruby version
+How does it solve the problem (conceptually)?
+- Front-End engineers building complex single-page apps using an MVC framework
 
-* System dependencies
+Why does one use it?
+- To write heavy front-end applications with clean code (relatively speaking)
 
-* Configuration
+What are the alternatives?
+- Angular, Backbone
 
-* Database creation
+What is it similar to, if anything?
+- Rails because it follows conventions
 
-* Database initialization
+What is the history of this technology?
+- Initially released in 2011, but the first stable release was 8/22/15 according to wikipedia
+https://en.wikipedia.org/wiki/Ember.js
 
-* How to run the test suite
+Who built it and why?
+- Yehuda Katz, to build "simplification and stability without stagnation"
 
-* Services (job queues, cache servers, search engines, etc.)
+Who is maintaining it?
+- The Ember Core Team: http://emberjs.com/team/
 
-* Deployment instructions
+What is your opinion on the technology after having built something with it?
+- I haven't finished the tutorial, but it seems like another js framework to use that could be a powerful tool to use depending on your project scope
 
-* ...
+What are the biggest conceptual hurdles (if any) you encountered when researching this?
+- It is a fairly new technology and some of the tutorials reference some legacy components (such as depending on the emblem templating language)
 
+What resources do you recommend for interested students?
+- The Ember website is a great start that provides a helpful overview of the technology: http://emberjs.com/about/
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+What article or forum was most helpful to you in learning this?
+- We followed this tutorial: http://ember.vicramon.com/
+
+What are 3 interview questions one might be asked about this technology?
+- Why use Ember over another framework?
+- Given Project 'X', what are the positives and negatives to using Ember?
+- Which company was behind the creation of Ember (this is a trick question because it is several companies)
+
+LOCAL INSTALLATION INSTRUCTIONS:
+
+- The tutorial (http://ember.vicramon.com/) has a Rails backend. After cloning this repository to your local machine, remember to run 'bundle install' in the command line and set up a database and run a migration.
+- App will listen on port 3000. Visit http://localhost:3000/api/v1/leads.json in your browser to see the JSON data output
+- Irnoically today's stopping point in the tutorial was the line that ends with "That’s it for the Rails side! Now we can get to the fun stuff" (http://ember.vicramon.com/creating-the-rails-api)
